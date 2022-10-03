@@ -23,7 +23,7 @@ import numpy as np
 import xgboost as xgb
 from sklearn.metrics import accuracy_score, confusion_matrix, roc_auc_score
 import cdsw
-
+import os
 
 """
 Program receives two (2) input arguments
@@ -34,6 +34,7 @@ Program receives two (2) input arguments
     :type Cycle_Alert_Threshold: int
 """
 #DEFAULT VALUES
+
 file = 'FD001'
 Cycle_Alert_Threshold = 40
 
